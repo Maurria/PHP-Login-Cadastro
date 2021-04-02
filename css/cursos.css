@@ -1,0 +1,65 @@
+.topo{
+    margin-bottom: 100px;
+}
+
+.card-linha{
+	display: flex;
+	flex-direction: line;
+}
+
+.card{
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 2px solid #ccc;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+  max-height: 300px;
+  max-width: 50%;
+  text-align: center;
+}
+.card:hover{
+	background-color: #c5c5c5;
+    color: #000;
+}
+
+.card div:hover {
+    background-color: #4faddb;
+    color: #000;
+}
+.card a:hover,
+.card a.selected {
+    background-color: #4faddb;
+    color: #000;
+}
+
+
+.card-img{
+	width: 100%;
+	height: 40%;
+	margin-bottom: 10px;
+}
+
+.card-linha .card {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.curso-preco {
+    float: right;
+    padding: 10px;
+}
+
+.preco-de {
+    text-decoration: line-through;
+    color: firebrick;
+}
+
+.preco-por {
+    color: green;
+    font-weight: bold;
+    font-size: 1.4em;
+}

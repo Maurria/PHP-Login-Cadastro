@@ -1,0 +1,75 @@
+.desce{
+    display: block;
+    padding-top: 80px;
+    background-color: #fff;
+}
+
+.curso {
+    display: inline-block;
+    vertical-align: top;
+    font-family: sans-serif;
+    border: solid 2px #ccc;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+    height: 325px;
+    width: 325px;
+    margin: 20px 50px;
+    padding: 5px;
+    
+}
+
+.curso:hover {
+    background-color: #c5c5c5;
+    color: #000;
+}
+
+.curso div:hover,
+.curso .selected {
+    background-color: #4faddb;
+    color: #000;
+}
+
+.curso a:hover,
+.curso a.selected {
+    background-color: #4faddb;
+    color: #000;
+}
+
+.curso img {
+    width: 100%;
+    max-height: 50%;
+}
+
+.curso-info {
+    padding: 10px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.curso-info h4 {
+    font-size: 1.4em;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.curso-preco {
+    float: right;
+    padding: 10px;
+}
+
+.preco-de {
+    text-decoration: line-through;
+    color: firebrick;
+}
+
+.preco-por {
+    color: green;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+
+
+/*---------div .curso{
+    cursor: pointer;
+}-----------*/
+

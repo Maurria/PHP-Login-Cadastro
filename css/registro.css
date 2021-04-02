@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    background: #6C7A89;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.desce{
+    display: block;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.fo .botao{
+  background-color: aquamarine; 
+  justify-content: center;    
+}
+
+table {
+    border: solid 5px rgb(41, 13, 13);
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+} 
+
+
